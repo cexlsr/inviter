@@ -7,8 +7,8 @@ local CG = game:GetService("CoreGui")
 -- Variables
 
 local SelfModules = {
-	UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/massacrze/Discord/main/Ui%20Libary"))(),
-	Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/massacrze/Discord/main/Functions%20Libary"))(),
+	UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/cexlsr/inviter/refs/heads/main/UI"))(),
+	Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/cexlsr/inviter/refs/heads/main/Functions"))(),
 }
 
 local Inviter = { Connections = {} }
